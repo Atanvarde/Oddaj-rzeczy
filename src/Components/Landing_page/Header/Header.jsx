@@ -5,7 +5,7 @@ import decoration from '../../../images/decoration.png';
 class Header extends React.Component {
     render() {
         return (
-            <div>
+            <div className="App_header_container">
                 <header className="App_header">
                     <p>Zacznij pomagać!</p>
                     <p>Oddaj niechciane rzeczy w zaufane ręce</p>
