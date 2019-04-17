@@ -1,0 +1,39 @@
+.Menu_list li{
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  a {
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 1px;
+  }
+  a:hover {
+      border-color: #000000;
+    }
+  }
+
+.Nav_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Start_btn {
+  padding: 1vw;
+  text-align: center;
+  text-decoration: none;
+  background-color:  #551000;
+  width: 15vw;
+  height: 5vw;
+  color: #FFBAAA;
+  font-weight: bold;
+  font-size: 2vw;
+  border-radius: 3px;
+  border:5px solid #FFBAAA;
+
+  cursor: pointer;
+  outline:0;
+}
+

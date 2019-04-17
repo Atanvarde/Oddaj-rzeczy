@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './Navigation.scss';
 
 class Navigation extends React.Component {
@@ -6,11 +6,11 @@ class Navigation extends React.Component {
         return (
             <nav className="Nav_container">
                 <ul className="Menu_list">
-                    <li><a href="">Start</a></li>
-                    <li><a href="">O co chodzi?</a></li>
-                    <li><a href="">O nas</a></li>
-                    <li><a href="">Fundacje i organizacje</a></li>
-                    <li><a href="">Kontakt</a></li>
+                    <li><a href="/">Start</a></li>
+                    <li><a href="/ocochodzi">O co chodzi?</a></li>
+                    <li><a href="/onas">O nas</a></li>
+                    <li><a href="/fundacjeiorganizacje">Fundacje i organizacje</a></li>
+                    <li><a href="/kontakt">Kontakt</a></li>
                 </ul>
             </nav>
         )

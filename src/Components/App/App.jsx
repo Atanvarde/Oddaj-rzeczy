@@ -5,8 +5,6 @@ import LandingPage from '../Landing_page/LandingPage.jsx';
 import {
   HashRouter,
   Route,
-  Link,
-  Switch,
   NavLink,
 } from 'react-router-dom';
 
