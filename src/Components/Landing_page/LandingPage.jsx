@@ -2,6 +2,7 @@ import React from 'react';
 import './LandingPage.scss';
 import Header from './Header/Header.jsx';
 import Navigation from './Navigation/Navigation.jsx';
+import YellowSection from "./YellowSection/YellowSection";
 
 class LandingPage extends React.Component {
     render() {
@@ -9,6 +10,7 @@ class LandingPage extends React.Component {
             <div className="LandingPage_container">
                 <Navigation/>
                 <Header/>
+                <YellowSection/>
             </div>
         )
     }
