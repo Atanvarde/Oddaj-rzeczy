@@ -1,3 +1,27 @@
 .FourSteps_container {
   height:756px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .FourSteps_header {
+    font-size: 40px;
+    font-weight: 100;
+  }
+}
+
+.FourSteps_box {
+  background-color: #ebebeb;
+  height: 325px;
+  width: 1180px;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  .FourSteps_SmallBox {
+    width: 25%;
+    p {
+      font-size:20px;
+    }
+  }
 }
