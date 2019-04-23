@@ -1,6 +1,11 @@
 import React from 'react';
 import './FourSteps.scss';
 import decoration from "../../../images/decoration.png";
+import SetUpAccountBtn from "./SetUpAccountBtn/SetUpAccountBtn";
+import ICON1 from "../../../images/ICON1.png";
+import ICON2 from "../../../images/ICON2.png";
+import ICON3 from "../../../images/ICON3.png";
+import ICON4 from "../../../images/ICON4.png";
 
 class FourSteps extends React.Component {
     render() {
@@ -12,30 +17,36 @@ class FourSteps extends React.Component {
                 </figure>
                 <div className="FourSteps_box">
                     <div className="FourSteps_SmallBox">
-                        <i className="fas fa-hands"></i>
+                        <img src={ICON1} alt="hands_icon"></img>
                         <p>Wybierz rzeczy</p>
-                        <span></span>
-                        <p>ubrania, zabawki, sprzęt i inne</p>
+                        <hr></hr>
+                        <span>ubrania, zabawki,</span>
+                        <span>sprzęt i inne</span>
                     </div>
                     <div className="FourSteps_SmallBox">
-                        <i className="fas fa-hands"></i>
+                        <img src={ICON2} alt="arrow_down_icon"></img>
                         <p>Spakuj je</p>
-                        <span></span>
-                        <p>skorzystaj z worków na śmieci</p>
+                        <hr></hr>
+                        <span>skorzystaj z worków</span>
+                        <span>na śmieci</span>
                     </div>
                     <div className="FourSteps_SmallBox">
-                        <i className="fas fa-hands"></i>
-                        <p>Zdecyduj komu chcesz pomóc</p>
-                        <span></span>
-                        <p>wybierz zaufane miejsce</p>
+                        <img src={ICON3} alt="glasses"></img>
+                        <p>Zdecyduj komu</p>
+                        <p>chcesz pomóc</p>
+                        <hr></hr>
+                        <span>wybierz zaufane</span>
+                        <span>miejsce</span>
                     </div>
                     <div className="FourSteps_SmallBox">
-                        <i className="fas fa-hands"></i>
-                        <p>Zamów u kuriera</p>
-                        <span></span>
-                        <p>kurier przyjedzie w dogodnych terminie</p>
+                        <img src={ICON4} alt="courier_icon"></img>
+                        <p>Zamów kuriera</p>
+                        <hr></hr>
+                        <span>kurier przyjedzie</span>
+                        <span>w dogodnym terminie</span>
                     </div>
                 </div>
+                <SetUpAccountBtn/>
             </section>
         )
     }

@@ -5,10 +5,16 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+
   .FourSteps_header {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 100;
   }
+
+  .App_header_decoration {
+    margin-top: 25px;
+    margin-bottom:15px;
+    }
 }
 
 .FourSteps_box {
@@ -19,9 +25,29 @@
   flex-direction: row;
   justify-items: center;
   .FourSteps_SmallBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 25%;
+    padding:55px;
+    span{
+      font-size:15px;
+    }
+    hr {
+        display: block;
+        position: relative;
+        margin: 13px auto;
+        height: 0;
+        width: 38%;
+        font-size: 2px;
+        border: none;
+        border-top: 2px solid #aaaaaa;
+    }
     p {
-      font-size:20px;
+      font-size:17px;
+    }
+    img {
+      margin-bottom: 15px;
     }
   }
 }
