@@ -1,18 +1,19 @@
 .AboutUsSection_cnt {
   height: 967px;
-  background-color: #ebebeb;
+  background-color: #efefef;
   display: flex;
   flex-direction: row;
 
 }
 .AboutUsInfo_cnt {
+  margin-top:60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   line-height: 45px;
   padding:50px;
-  margin-left:130px;
+  margin-left:100px;
   h1 {
     font-size: 38px;
     font-weight: 100;
@@ -20,8 +21,18 @@
   }
   p {
     margin-top:20px;
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
+  }
+}
+
+.Signature_box {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+  .Signature_img{
+    padding-left:420px;
+    padding-top:40px;
   }
 }
 
