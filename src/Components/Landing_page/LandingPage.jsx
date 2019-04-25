@@ -2,10 +2,11 @@ import React from 'react';
 import './LandingPage.scss';
 import Header from './Header/Header.jsx';
 import Navigation from './Navigation/Navigation.jsx';
-import YellowSection from "./YellowSection/YellowSection";
-import FourSteps from "./FourStepsSection/FourSteps";
-import AboutUsSection from "./AboutUsSection/AboutUsSection";
-import FoundationListSection from "./FoundationListSection/FoundationListSection";
+import YellowSection from "./YellowSection/YellowSection.jsx";
+import FourStepsSection from "./FourStepsSection/FourSteps.jsx";
+import AboutUsSection from "./AboutUsSection/AboutUsSection.jsx";
+import FoundationListSection from "./FoundationListSection/FoundationListSection.jsx";
+import ContactSection from "./ContactSection/ContactSection.jsx";
 
 class LandingPage extends React.Component {
     render() {
@@ -14,9 +15,10 @@ class LandingPage extends React.Component {
                 <Navigation/>
                 <Header/>
                 <YellowSection/>
-                <FourSteps/>
+                <FourStepsSection/>
                 <AboutUsSection/>
                 <FoundationListSection/>
+                <ContactSection/>
             </div>
         )
     }

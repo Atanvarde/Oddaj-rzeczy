@@ -1,6 +1,7 @@
 import React from 'react';
 import './FoundationListSection.scss';
 import decoration from '../../../images/decoration.png';
+import FoundationListData from './FoundationListData/FoundationListData.jsx';
 
 class FoundationListSection extends React.Component {
     render() {
@@ -24,6 +25,7 @@ class FoundationListSection extends React.Component {
                         sprawdzić czym się zajmują, komu pomagają i czego potrzebują.
                     </p>
                 </div>
+                <FoundationListData/>
             </section>
         )
     }
