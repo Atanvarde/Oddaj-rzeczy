@@ -3,7 +3,7 @@ import'./MainBtn1.scss';
 
 class MainBtn1 extends React.Component {
     render() {
-        return <button className='MainBtn_button'>ODDAJ RZECZY</button>
+        return <button className='MainBtn_button'>ODDAJ<br></br>RZECZY</button>
     }
 }
 
