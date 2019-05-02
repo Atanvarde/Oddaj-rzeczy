@@ -14,9 +14,9 @@ class ContactSection extends React.Component {
                     </figure>
                 </div>
                 <ContactForm/>
-            <footer>
-                <p>Copyright 2015 &copy; by Anna Dadej</p>
-            </footer>
+                <footer>
+                    <p>Copyright 2015 &copy; by Anna Dadej</p>
+                </footer>
             </section>
         )
     }
