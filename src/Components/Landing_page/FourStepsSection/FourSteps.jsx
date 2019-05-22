@@ -13,7 +13,7 @@ class FourSteps extends React.Component {
             <section className="FourSteps_container">
                 <h1 className="FourSteps_header">Wystarczą 4 proste kroki</h1>
                 <figure>
-                    <img className="App_header_decoration" src={decoration} alt="decoration" />
+                    <img className="App_header_decoration" src={decoration} alt="" />
                 </figure>
                 <div className="FourSteps_box">
                     <div className="FourSteps_SmallBox">

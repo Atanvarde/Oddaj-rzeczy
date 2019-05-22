@@ -10,7 +10,7 @@ class FoundationListSection extends React.Component {
                 <div className="FoundationList_box">
                     <h1>Komu pomagamy?</h1>
                     <figure>
-                        <img src={decoration} alt="decoration"></img>
+                        <img src={decoration} alt=""></img>
                     </figure>
                 </div>
                 <div className="FoundationMenu_list_container">

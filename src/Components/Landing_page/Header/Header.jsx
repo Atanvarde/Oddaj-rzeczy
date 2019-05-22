@@ -21,7 +21,7 @@ class Header extends React.Component {
                         <p>Zacznij pomagać!</p>
                         <p>Oddaj niechciane rzeczy w zaufane ręce</p>
                         <figure>
-                            <img className="App_header_decoration" src={decoration} alt="decoration" />
+                            <img className="App_header_decoration" src={decoration} alt="" />
                         </figure>
                     </div>
                     <div className="MainButtons_container">

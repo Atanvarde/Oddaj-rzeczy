@@ -11,7 +11,7 @@ class AboutUsSection extends React.Component {
                 <div className="AboutUsInfo_cnt">
                     <h1>O nas</h1>
                     <figure>
-                        <img src={decoration} alt="decoration"></img>
+                        <img src={decoration} alt=""></img>
                     </figure>
                     <p>Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane.
                         Water spinach arugula pea tatsoi aubergine spring onion bush.

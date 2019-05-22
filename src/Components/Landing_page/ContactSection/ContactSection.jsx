@@ -11,7 +11,7 @@ class ContactSection extends React.Component {
                 <div className="ContactSection_header">
                     <h2>Skontaktuj się z nami</h2>
                     <figure>
-                        <img src={decoration} alt="decoration"></img>
+                        <img src={decoration} alt=""></img>
                     </figure>
                     <ContactForm/>
                 </div>
